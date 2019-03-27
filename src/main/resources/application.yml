@@ -1,0 +1,16 @@
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+clientId: "local version of client id"
+secret: "local version of  secret"
+location: "local version of location"
+---
+spring:
+  profiles.active: default
+
+logging.level.org.springframework: debug

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: alert-service
+
+  cloud:
+    config:
+      uri: https://config-0e817806-0219-45f0-ace2-c0c5a4683778.apps.pcf.solipsys.com
+      client:
+        oauth2:
+          clientId: p-config-server-48fff234-3721-4a54-a8e1-838f105bc78c
+          clientSecret: rJi1YwWIVnS3
+          accessTokenUri: https://p-spring-cloud-services.uaa.system.pcf.solipsys.com/oauth/token
+      label: master

@@ -1,0 +1,1 @@
+org.springframework.cloud.bootstrap.BootstrapConfiguration=io.microsamples.cloud.oauth.config.ConfigClientOAuth2BootstrapConfiguration

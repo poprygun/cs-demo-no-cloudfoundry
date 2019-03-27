@@ -1,0 +1,6 @@
+{
+  "git": {
+    "uri": "https://github.com/poprygun/cs-demo-config",
+    "searchPaths": "{application}"
+  }
+}
